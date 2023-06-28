@@ -1,4 +1,4 @@
-#Prefix sum
+# Prefix sum
 
   This is a common parallelization problem that involves a problem where we must add consecutively or perform an action consecutively.
   The solution is to divide the array in N-sized chunks. Then perform addition on each chunk down to one number (called prefix sum.
