@@ -1,4 +1,4 @@
-#Parallel bucket sort
+# Parallel bucket sort
 one of parallelization is using bucket sort since you can define the size of each bucket to reduce overhead cost of using/starting multiple threads.
 Then we can run a simple bubble sort on the psuedo-sorted list then combining each individual bucket together to complete the sorted list.
 Compared to other sorting algorithms like selection sort for example bucket sort performs better due to its divide and conquer tactics reducing the 
